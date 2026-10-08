@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manufacturing LeadTime Analytics</title>
+  <meta name="description" content="Manufacturing lead time analytics prototype using Python, Microsoft Fabric, PySpark and Power BI.">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #0b1220; color: #e8eef8; }
+    header, section, footer { padding: 45px max(24px, calc((100% - 1000px)/2)); }
+    header { border-bottom: 1px solid #273449; }
+    h1 { font-size: clamp(34px, 6vw, 60px); line-height: 1.1; }
+    h2 { color: #76c7ff; }
+    p { color: #b7c6d8; line-height: 1.7; }
+    .tag { color: #7dd3fc; font-weight: bold; }
+    .button { display: inline-block; padding: 14px 20px; background: #38bdf8; color: #07111f; border-radius: 8px; text-decoration: none; font-weight: bold; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px,1fr)); gap: 16px; }
+    .card { background: #172235; padding: 24px; border-radius: 12px; }
+    footer { border-top: 1px solid #273449; }
+    a { color: #7dd3fc; }
+  </style>
+</head>
+<body>
+  <header><strong>Manufacturing LeadTime Analytics</strong></header>
+  <section>
+    <div class="tag">DATA ENGINEERING • ANALYTICS PROTOTYPE</div>
+    <h1>Turn manufacturing data into actionable insights.</h1>
+    <p>An end-to-end analytics pipeline that integrates ERP and Excel data, standardizes manufacturing lead times, and supports operational dashboards.</p>
+    <a class="button" href="https://github.com/theng23/Manufacturing_LeadTime_Analytics">Explore GitHub Project</a>
+  </section>
+  <section>
+    <h2>What the project addresses</h2>
+    <div class="cards">
+      <div class="card"><h3>Fragmented Data</h3><p>Bring ERP and Excel-based production records into a unified data foundation.</p></div>
+      <div class="card"><h3>Lead Time Visibility</h3><p>Analyze manufacturing milestones across production stages.</p></div>
+      <div class="card"><h3>Operational Analytics</h3><p>Support bottleneck identification and Power BI reporting.</p></div>
+    </div>
+  </section>
+  <section>
+    <h2>Technology Architecture</h2>
+    <p>Python Ingestion → Microsoft Fabric Bronze → PySpark Silver → Delta Lake Gold → Power BI</p>
+    <p>This is a technical demonstration using anonymized and simulated data, with potential for further product development.</p>
+  </section>
+  <footer>
+    <p>Manufacturing LeadTime Analytics — Independent prototype</p>
+    <a href="https://github.com/theng23/Manufacturing_LeadTime_Analytics">Source repository</a>
+  </footer>
+</body>
+</html>
